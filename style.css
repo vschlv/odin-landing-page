@@ -75,9 +75,29 @@ nav a {
 
 /* Info section */
 
+.info {
+    width: 100%;
+    height: 60vh;
+    text-align: center;
+    color: #1f2937;
+}
+
+.info h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin: 40px 0;
+}
+
+.item-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
 .item-container img {
     width: 200px;
     height: 200px;
     border: 3px solid #3882f6;
     border-radius: 8px;
+    margin-bottom: 5px;
 }
