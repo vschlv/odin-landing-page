@@ -9,7 +9,6 @@ body {
 }
 
 header {
-    width: 100%;
     height: 65px;
     padding: 0 170px;
     background-color: #1f2937;
@@ -42,7 +41,6 @@ nav a {
     justify-content: space-between;
     align-items: center;
     padding: 0 170px;
-    width: 100%;
     height: 50vh;
     background-color: #1f2937;
 }
@@ -76,7 +74,6 @@ nav a {
 /* Info section */
 
 .info {
-    width: 100%;
     height: 60vh;
     text-align: center;
     color: #1f2937;
@@ -105,7 +102,6 @@ nav a {
 /* Quote section */
 
 .quote {
-    width: 100%;
     height: 60vh;
     background-color: #e6e7eb;
     color: #1f2937;
@@ -125,4 +121,38 @@ nav a {
     font-weight: 700;
     display: flex;
     justify-content: flex-end;
+}
+
+/* Signup section */
+
+.signup {
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    background-color: #3882f6;
+    color: #EDEEC9;
+    width: 75vw;
+    height: 20vh;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.modal-text h2 {
+    margin-bottom: 5px;
+}
+
+.modal-button button {
+    background-color: #3882f6;
+    color: #EDEEC9;
+    height: 35px;
+    padding: 0 30px;
+    border: 2px solid #EDEEC9;
+    border-radius: 8px;
+    font-size: 1.2rem;
 }
