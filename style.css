@@ -156,3 +156,15 @@ nav a {
     border-radius: 8px;
     font-size: 1.2rem;
 }
+
+/* Footer section */
+
+footer {
+    height: 13vh;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #EDEEC9;
+    font-size: 1.1rem;
+}
