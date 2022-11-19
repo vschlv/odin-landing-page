@@ -168,3 +168,7 @@ footer {
     color: #EDEEC9;
     font-size: 1.1rem;
 }
+
+button:hover {
+    background-color: #3a86ff;
+}
